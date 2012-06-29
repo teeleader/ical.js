@@ -140,6 +140,9 @@ exports.objectHandlers = {
   , 'DTEND' : dateParam('end')
   ,' CLASS' : storeParam('class')
   , 'TRANSP' : storeParam('transparency')
+  , 'RRULE' : storeParam('rrule')
+  , 'DTSTART' : storeParam('dtstart')
+  , 'DTEND' : storeParam('dtend')
   , 'GEO' : geoParam('geo')
 }
 
